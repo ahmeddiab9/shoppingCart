@@ -7,7 +7,7 @@ let message = document.getElementById('message')
 
 checkemail = localStorage.getItem('email')
 checkUsername = localStorage.getItem('username')
-
+ 
 submit.addEventListener('click' , function(e){
 
 
