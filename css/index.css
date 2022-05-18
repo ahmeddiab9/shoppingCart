@@ -16,3 +16,15 @@ li{
     color: rgb(77, 74, 74);
     padding: 50px;
 }
+#user-group{
+    display: none;
+}
+#user-group a{
+    color: #fff;
+}
+button{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}

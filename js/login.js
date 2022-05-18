@@ -23,7 +23,7 @@ submit.addEventListener('click' , function(e){
             console.log('logged in');
             window.location = '/index.html'
         }else{
-            console.log('no data');
+            message.innerHTML = 'No Details' 
         }
 
     }
