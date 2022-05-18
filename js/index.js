@@ -9,13 +9,14 @@ if(username){
     usernamee.style.display = 'flex'
     user.innerHTML = username
 }else{
-    actionLogin.style.display = 'block'
+    actionLogin.style.display = 'flex'
     usernamee.style.display = 'none'
 }
 
 singout.addEventListener('click' , function(){
-    window.Location = '/register.html'
-    localStorage.clear()
+    window.location = '/register.html'
+    actionLogin.style.display = 'flex'
+    usernamee.style.display = 'none'
 })
 
 
