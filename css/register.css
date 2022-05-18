@@ -1,0 +1,14 @@
+.login-page{
+    width: 30%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+#message{
+    background-color: rgb(219, 105, 105);
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    display: none;
+}

@@ -1,0 +1,18 @@
+a{
+    color: #fff;
+}
+a:hover{
+    color: #ccc;
+}
+li{
+    list-style: none;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    background-color: #eee;
+    color: rgb(77, 74, 74);
+    padding: 50px;
+}
