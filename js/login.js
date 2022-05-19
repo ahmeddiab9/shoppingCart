@@ -5,26 +5,24 @@ let message = document.getElementById('message')
 
 
 checkemail = localStorage.getItem('email')
-chwckPassword = localStorage.getItem('password')
+checkPassword = localStorage.getItem('password')
 
-submit.addEventListener('click' , function(e){
+submit.addEventListener('click' , function checkLogin(e){
     e.preventDefault()
-
-    console.log(email.value);
-    console.log(checkemail);
-
     if(email.value ===  '' || password.value === ''){
         message.style.display = 'block'
     }else{
-        if(email.value ===  checkemail && password.value === chwckPassword){
+        if((email.value ===  String(checkemail) && password.value === checkPassword)){
             setTimeout(() => {
                 window.location = '/index.html'
             }, 2000);
-            console.log('logged in');
             window.location = '/index.html'
         }else{
-            message.innerHTML = 'No Details' 
+            message.style.display = 'block'
+            message.innerHTML = 'Please Check Email or Password' 
         }
-
     }
 })
+
+
+ 

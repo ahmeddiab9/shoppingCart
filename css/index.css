@@ -28,3 +28,30 @@ button{
     color: #fff;
     cursor: pointer;
 }
+.home{
+    margin-top: 30px;
+}
+.products {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.product .product-item{
+    width: 30%;
+}
+.card img{
+    width: 100%;
+    height: 180px;
+}
+.actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.actions a{
+    width: 48%;
+    font-size: 11px;
+}
